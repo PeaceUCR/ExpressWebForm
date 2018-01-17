@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+<form action="/login" method="post">
+    <label for="name" >Name:</label>
+    <input type="text" name="name" id="name" value="Mickey">
+    <label for="password" >Password:</label>
+    <input type="text" name="password" id="password" value="Mouse">
+    <br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/login". and request will log in the server side</p>
+<p>the app.js using the router( a mini app) of index.js, then index js match and render index.jade</p>
+
+<h1>Next functtion Test</h1>
+<p>if there are two path '/' match, first match has the next function, then the second match will be executed after first</p>
+<p>first match no next function, then only first executed, the second no executed</p>
+<p>document: google "expressjs next function"</p>
+<p><a href="https://expressjs.com/en/guide/writing-middleware.html">https://expressjs.com/en/guide/writing-middleware.html</a></p>
+<p><a href="https://stackoverflow.com/questions/13133071/express-next-function-what-is-it-really-for">https://stackoverflow.com/questions/13133071/express-next-function-what-is-it-really-for</a></p>
+</body>
+</html>
